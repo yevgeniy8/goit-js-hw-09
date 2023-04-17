@@ -16,3 +16,41 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.btn {
+  padding: 10px;
+  text-transform: uppercase;
+  border: 1px solid #808080;
+  border-radius: 2px;
+  background-color: #fff;
+}
+
+.btn:hover {
+  background-color: #eae4e4;
+  cursor: pointer;
+}
+
+.btn[disabled] {
+  background-color: #ccc9c9;
+}
+
+.timer {
+	margin-top: 10px;
+	display: flex;
+	gap: 20px;
+}
+
+.field {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.value {
+	display: block;
+	font-size: 36px;
+}
+
+.label {
+	text-transform: uppercase;
+}
